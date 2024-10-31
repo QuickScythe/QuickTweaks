@@ -1,0 +1,72 @@
+{
+	"multipart":[
+		{
+			"apply": {
+				"model": "minecraft:block/dispenser_vertical",
+				"x": 180
+			},
+			"when":{
+				"facing": "down"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/dispenser_vertical"
+			},
+			"when": {
+				"facing": "up"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/dispenser",
+				"y": 90
+			},
+			"when": {
+				"facing": "east"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/dispenser"
+			},
+			"when":{
+				"facing": "north"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/dispenser",
+				"y": 180
+			},
+			"when": {
+				"facing": "south"
+			}
+		},
+		{
+			"apply": {
+				"model": "minecraft:block/dispenser",
+				"y": 270
+			},
+			"when":{
+				"facing": "west"
+			}
+		},
+		{
+			"apply": {
+				"model": "custom:block/redstone_component/powerable_generic_on"
+			},
+			"when":{
+				"triggered": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "custom:block/redstone_component/powerable_generic_off"
+			},
+			"when":{
+				"triggered": "false"
+			}
+		}
+	]
+}

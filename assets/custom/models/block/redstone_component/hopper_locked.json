@@ -1,0 +1,22 @@
+{
+	"credit": "Created by Stridey",
+	"ambientocclusion": false,
+	"textures": {
+		"4": "custom:block/redstone_component/hopper_locked"
+	},
+	"elements": [
+		{
+			"from": [3.9, 8, 3.9],
+			"to": [12.1, 9, 12.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 5, 3]},
+			"faces": {
+				"north": {"uv": [0, 4, 16, 6], "texture": "#4"},
+				"east": {"uv": [0, 4, 16, 6], "texture": "#4"},
+				"south": {"uv": [0, 4, 16, 6], "texture": "#4"},
+				"west": {"uv": [0, 4, 16, 6], "texture": "#4"},
+				"up": {"uv": [0, 4, 16, 6], "texture": "#4"},
+				"down": {"uv": [0, 4, 16, 6], "texture": "#4"}
+			}
+		}
+	]
+}

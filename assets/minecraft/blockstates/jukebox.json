@@ -1,0 +1,25 @@
+{
+	"multipart":[
+		{
+			"apply": {
+				"model": "minecraft:block/jukebox"
+			}
+		},
+		{
+			"apply": {
+				"model": "custom:block/redstone_component/powerable_generic_on"
+			},
+			"when": {
+				"has_record": "true"
+			}
+		},
+		{
+			"apply": {
+				"model": "custom:block/redstone_component/powerable_generic_off"
+			},
+			"when":{
+				"has_record": "false"
+			}
+		}
+	]
+}
